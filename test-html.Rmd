@@ -1,0 +1,25 @@
+---
+title: "Pain Journal WordCloud"
+author: "Peter Kamerman"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+# Load packages
+library(dplyr)
+library(tidyr)
+library(svglite)
+library(rentrez)
+library(tm)
+library(wordcloud2)
+
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE,
+                      cache = TRUE,
+                      tidy = FALSE,
+                      fig.path = './figures/',
+                      dev = 'svg')
+```
+
