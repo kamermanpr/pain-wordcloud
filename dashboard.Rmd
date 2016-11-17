@@ -1,0 +1,48 @@
+---
+title: "PainBiblio"
+output: 
+  flexdashboard::flex_dashboard:
+    navbar:
+      - { icon: "ion-ios-home", title: "painblogR", href: "//painblogr.org", 
+      align: right }
+    social: [ "twitter", "facebook", "google-plus", "linkedin"]
+    source_code: "https://github.com/kamermanpr/pain-wordcloud"
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Research themes
+=====================================  
+
+Inputs {.sidebar data-width=300}
+-------------------------------------
+
+
+
+Column
+-------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+Author connections
+=====================================  
+
+Inputs {.sidebar data-width=300}
+-------------------------------------
+
+
+Column
+-------------------------------------
+### Chart C
+
+```{r}
+
+```
+
